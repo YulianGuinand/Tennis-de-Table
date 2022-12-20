@@ -3197,6 +3197,10 @@ input[type="Submit"]:hover{
   .gallery__info{
     display: block;
   }
+  .image__container{
+    flex: 100%;
+    max-width: 100%;
+  }
 }
 
 .sponsor__name{
