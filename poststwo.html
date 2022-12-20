@@ -21,9 +21,13 @@
             </a>
             <p class="byline-text">Tennis De Table</p>
             <div class="navigation-bar">
-                <a href="index.html" class="nav-link">MENU</a>
-                <a href="about.html" class="nav-link">ABOUT</a>
-                <a href="gallery.html" class="nav-link">GALLERY</a>
+                <a href="index.html" aria-current="page" class="nav-link">Acceuil</a>
+                <a href="gallery.html" class="nav-link">gallerie</a>
+                <a href="postsone.html" class="nav-link">entrainement</a>
+                <a href="poststwo.html" class="nav-link">encadrants</a>
+                <a href="poststhree.html" class="nav-link">horaires - tarifs</a>
+                <a href="postfour.html" class="nav-link">Equipes</a>
+                <a href="postfive.html" class="nav-link">Avis</a>
             </div>
             <a href="contact.html" class="btn">Contactez Nous !</a>
         </div>
@@ -112,25 +116,45 @@
                 distance: '50px',
                 delay: 400
             });
-            sr.reveal(".w-container img",{
-                origin: 'left',
-                distance: '50px',
-                duration: 1000,
-            });
-            sr.reveal(".byline-text",{
+            sr.reveal(".nav-link:nth-child(4)",{
             origin: 'top',
-            distance: "50px",
+            distance: '50px',
             delay: 500
-        });
-        sr.reveal('.byline-link',{
-            origin: 'top',
-            distance: '50px',
-            delay: 1000
-        });
-        sr.reveal(".post-heading",{
-            origin: 'top',
-            distance: '50px',
-        });
+            });
+            sr.reveal(".nav-link:nth-child(5)",{
+                origin: 'top',
+                distance: '50px',
+                delay: 600
+                });
+            sr.reveal(".nav-link:nth-child(6)",{
+                origin: 'top',
+                distance: '50px',
+                delay: 700
+            });
+            sr.reveal(".nav-link:nth-child(7)",{
+                origin: 'top',
+                distance: '50px',
+                delay: 800
+            });
+                sr.reveal(".w-container img",{
+                    origin: 'left',
+                    distance: '50px',
+                    duration: 1000,
+                });
+                sr.reveal(".byline-text",{
+                origin: 'top',
+                distance: "50px",
+                delay: 500
+            });
+            sr.reveal('.byline-link',{
+                origin: 'top',
+                distance: '50px',
+                delay: 1000
+            });
+            sr.reveal(".post-heading",{
+                origin: 'top',
+                distance: '50px',
+            });
     </script>
 </body>
 
